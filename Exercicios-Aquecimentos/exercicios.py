@@ -7,26 +7,26 @@
 # print("O Resultado da sua divisão e:", x / y)
 # print("O Resultado da sua exponenciação e:", x ** y)
 
-# import numpy as np
+import numpy as np
 
-# x = [1,2,3,4,5]
+x = [1,2,3,4,5]
 
-# x.append(int(input("Digite o número a ser adicionado:")))
+x.append(int(input("Digite o número a ser adicionado:")))
 
-# minimo = min(x)
-# x.remove(minimo)
+minimo = min(x)
+x.remove(minimo)
 
-# media = np.mean(x)
+media = np.mean(x)
 
-# print(f'A sua Lista é: {x} E a media da Lista é: {media} E o tamanho da lista é: {len(x)}')
+print(f'A sua Lista é: {x} E a media da Lista é: {media} E o tamanho da lista é: {len(x)}')
 
-# nota = float(input("Digite a nota do aluno:"))
+nota = float(input("Digite a nota do aluno:"))
 
-# if nota > 7:
-#     print("Aluno Aprovado")
+if nota > 7:
+    print("Aluno Aprovado")
 
-# elif nota < 5:
-#     print("Aluno Reprovado")
+elif nota < 5:
+    print("Aluno Reprovado")
 
-# else:
-#     print("Aluno em Recuperação")
+else:
+    print("Aluno em Recuperação")
